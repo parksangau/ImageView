@@ -13,6 +13,8 @@
 		AE62666B28768AA9004C3657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE62666928768AA9004C3657 /* Main.storyboard */; };
 		AE62666D28768AAB004C3657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE62666C28768AAB004C3657 /* Assets.xcassets */; };
 		AE62667028768AAB004C3657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE62666E28768AAB004C3657 /* LaunchScreen.storyboard */; };
+		AE62667928768B11004C3657 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AE62667728768B11004C3657 /* lamp_off.png */; };
+		AE62667A28768B11004C3657 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AE62667828768B11004C3657 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AE62666C28768AAB004C3657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE62666F28768AAB004C3657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE62667128768AAB004C3657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE62667728768B11004C3657 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		AE62667828768B11004C3657 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		AE62666228768AA9004C3657 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				AE62667728768B11004C3657 /* lamp_off.png */,
+				AE62667828768B11004C3657 /* lamp_on.png */,
 				AE62666328768AA9004C3657 /* AppDelegate.swift */,
 				AE62666528768AA9004C3657 /* SceneDelegate.swift */,
 				AE62666728768AA9004C3657 /* ViewController.swift */,
@@ -127,7 +133,9 @@
 			files = (
 				AE62667028768AAB004C3657 /* LaunchScreen.storyboard in Resources */,
 				AE62666D28768AAB004C3657 /* Assets.xcassets in Resources */,
+				AE62667A28768B11004C3657 /* lamp_on.png in Resources */,
 				AE62666B28768AA9004C3657 /* Main.storyboard in Resources */,
+				AE62667928768B11004C3657 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
